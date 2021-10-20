@@ -54,8 +54,14 @@ tr:nth-child(even) {
 		color:#000
 	}
 
+	button {
+		background:#ddd;
+		color:#000;
+	}
+
+	a { color:blue }
+
 	tr:nth-child(odd) {background:#eee }
 	tr:nth-child(even) { background:#ddd }
 	hr {background:#bbb}
-	a { color:blue }
 }
