@@ -14,8 +14,8 @@ weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
 
-// Change page title to the current weekday
-document.getElementById("title").innerHTML = weekday[d.getDay()];
+// // Change page title to the current weekday
+// document.getElementById("title").innerHTML = weekday[d.getDay()];
 
 const minDays = ["09-17", "10-18", "11-15", "02-28", "03-21", "04-18"];
 
@@ -41,4 +41,10 @@ if (minDays.includes((d.getMonth() + 1) + "-" + d.getDate())) {
 			document.getElementById("min").style.display="block";
 			break;
 	}
+}
+
+function show() {
+	document.getElementById("std").style.display="block";
+	document.getElementById("long").style.display="block";
+	document.getElementById("min").style.display="block";
 }
