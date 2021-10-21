@@ -53,6 +53,8 @@ function hide() {
 			break;
 		}
 	}
+	// Make show all visible
+	document.getElementById("view").style.display="block";
 	// Flip state bit to be false
 	state = false;
 }
