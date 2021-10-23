@@ -1,17 +1,5 @@
 var d = new Date();
 
-const weekday = new Array(7);
-weekday[0] = "Sunday";
-weekday[1] = "Monday";
-weekday[2] = "Tuesday";
-weekday[3] = "Wednesday";
-weekday[4] = "Thursday";
-weekday[5] = "Friday";
-weekday[6] = "Saturday";
-
-// // Change page title to the current weekday
-// document.getElementById("title").innerHTML = weekday[d.getDay()];
-
 const minDays = ["09-17", "10-18", "11-15", "02-28", "03-21", "04-18"];
 
 // Default "show" state
