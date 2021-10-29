@@ -48,8 +48,6 @@ tr:nth-child(even) {
 	line-height:1em
 }
 
-#view {	display: none; }
-
 @media(prefers-color-scheme: light) {
 	body {
 		background:#fff;
