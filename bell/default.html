@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="/index.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="icon.png" />
+	<title>bell schedule</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">home</a>
+			<a href=#>schedule</a>
+		</nav>
+	</header>
+	<main>
+		<div id="std">
+			<hr>
+			<h2>Regular Day</h2>
+			<table>
+				<tr>
+					<th>Period</th>
+					<th>Start</th>
+					<th>End</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>08:45</td>
+					<td>09:40</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>09:48</td>
+					<td>10:43</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>10:51</td>
+					<td>11:46</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>11:54</td>
+					<td>12:49</td>
+				</tr>
+				<tr>
+					<td>Lunch</td>
+					<td>12:57</td>
+					<td>13:27</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>13:35</td>
+					<td>14:30</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>14:38</td>
+					<td>15:33</td>
+				</tr>
+			</table>
+			<small>55 minutes</small>
+		</div>
+		<div id="long">
+			<hr>
+			<h2>Block Day</h2>
+			<table>
+				<tr>
+					<th>Period</th>
+					<th>Start</th>
+					<th>End</th>
+				</tr>
+				<tr>
+					<td>1 / 2</td>
+					<td>08:45</td>
+					<td>10:33</td>
+				</tr>
+				<tr>
+					<td>Core</td>
+					<td>10:41</td>
+					<td>11:03</td>
+				</tr>
+				<tr>
+					<td>3 / 4</td>
+					<td>11:11</td>
+					<td>12:59</td>
+				</tr>
+				<tr>
+					<td>Lunch</td>
+					<td>13:07</td>
+					<td>13:37</td>
+				</tr>
+				<tr>
+					<td>5 / 6</td>
+					<td>13:45</td>
+					<td>15:33</td>
+				</tr>
+			</table>
+			<small>108 minutes (22 core)</small>
+		</div>
+		<div id="min">
+			<hr>
+			<h2>Minimum Day</h2>
+			<table>
+				<tr>
+					<th>Period</th>
+					<th>Start</th>
+					<th>End</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>10:55</td>
+					<td>11:30</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>11:38</td>
+					<td>12:11</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>12:19</td>
+					<td>12:52</td>
+				</tr>
+				<tr>
+					<td>Lunch</td>
+					<td>13:00</td>
+					<td>13:30</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>13:38</td>
+					<td>14:11</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>14:19</td>
+					<td>14:52</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>15:00</td>
+					<td>15:33</td>
+				</tr>
+			</table>
+			<small>33-35 minutes</small>
+		</div>
+	</main>
+	<footer>
+		<hr>
+		<button id="view" onclick="button();">Show all</button>
+		<br>
+		<a href="bell.pdf" target=_blank><small>Official PDF</small></a>
+		<br>
+		<a href="https://cyckl.net" target=_blank><small>cyckl.net</small></a>
+	</footer>
+</body>
+<script src="./index.js"></script>
+</html>
