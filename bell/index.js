@@ -24,9 +24,9 @@ function hide() {
 	load();
 	// Check if minimum day, if not, proceed normal
 	if (minDays.includes((d.getMonth() + 1) + "-" + d.getDate())) {
-		document.getElementById("min").style.display="block";
+		document.getElementById("min").style.display = "block";
 	} else if (finalDays.includes((d.getMonth() + 1) + "-" + d.getDate())) {
-		document.getElementById("final").style.display="block";
+		document.getElementById("final").style.display = "block";
 	} else if (rallyDays.includes((d.getMonth() + 1) + "-" + d.getDate())) {
 		document.getElementById("rally").style.display = "block";
 	} else {
@@ -35,19 +35,19 @@ function hide() {
 		case 1:
 		case 2:
 		case 5:
-			document.getElementById("std").style.display="block";
+			document.getElementById("std").style.display = "block";
 			break;
 		case 3:
 		case 4:
-			document.getElementById("long").style.display="block";
+			document.getElementById("long").style.display = "block";
 			break;
 		case 6:
 		case 0:
 			// TODO: Combine this into one selector
-			document.getElementById("std").style.display="block";
-			document.getElementById("long").style.display="block";
-			document.getElementById("min").style.display="block";
-			document.getElementById("final").style.display="block";
+			document.getElementById("std").style.display = "block";
+			document.getElementById("long").style.display = "block";
+			document.getElementById("min").style.display = "block";
+			document.getElementById("final").style.display = "block";
 			document.getElementById("rally").style.display = "block";
 			break;
 		}
@@ -64,8 +64,8 @@ function show() {
 	document.getElementById("std").style.display = "block";
 	document.getElementById("long").style.display = "block";
 	document.getElementById("min").style.display = "block";
-	document.getElementById("final").style.display="block";
-	document.getElementById("rally").style.display="block";
+	document.getElementById("final").style.display = "block";
+	document.getElementById("rally").style.display = "block";
 	// Flip state bit to be true
 	state = true;
 }
