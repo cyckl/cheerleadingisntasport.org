@@ -48,6 +48,7 @@ function hide() {
 			document.getElementById("long").style.display="block";
 			document.getElementById("min").style.display="block";
 			document.getElementById("final").style.display="block";
+			document.getElementById("rally").style.display = "block";
 			break;
 		}
 	}
