@@ -2,6 +2,7 @@ var d = new Date();
 
 const minDays = ["9-17", "10-18", "11-15", "2-28", "3-21", "4-18"];
 const finalDays = ["1-19", "1-20", "1-21", "6-10", "6-13", "6-14"];
+const rallyDays = ["10-8", "12-10"];
 
 
 // Default "show" state
@@ -14,6 +15,7 @@ function load() {
 	document.getElementById("long").style.display="none";
 	document.getElementById("min").style.display="none";
 	document.getElementById("final").style.display="none";
+	document.getElementById("rally").style.display="none";
 }
 
 // Hide everything then show relevant elements
@@ -25,6 +27,8 @@ function hide() {
 		document.getElementById("min").style.display="block";
 	} else if (finalDays.includes((d.getMonth() + 1) + "-" + d.getDate())) {
 		document.getElementById("final").style.display="block";
+	} else if (rallyDays.includes((d.getMonth() + 1) + "-" + d.getDate())) {
+		document.getElementById("rally").style.display = "block";
 	} else {
 	// Check day of the week and show relevant schedule
 	switch(d.getDay()) {
@@ -60,6 +64,7 @@ function show() {
 	document.getElementById("long").style.display = "block";
 	document.getElementById("min").style.display = "block";
 	document.getElementById("final").style.display="block";
+	document.getElementById("rally").style.display="block";
 	// Flip state bit to be true
 	state = true;
 }
