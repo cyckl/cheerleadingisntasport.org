@@ -19,36 +19,11 @@ a {
 	text-decoration:none
 }
 
-button {
-	background:#222;
-	color:#fff;
-	border-radius:0.5em;
-	border: none;
-	padding: 0.5em 1em;
-}
-
-table {
-	width:100%;
-	border-collapse:collapse
-}
-
-tr { text-align:center }
-
-tr:nth-child(odd) {
-	background:#111
-}
-
-tr:nth-child(even) {
-	background:#222
-}
-
 .huge {
 	font-size:8em;
 	font-weight:bold;
 	line-height:1em
 }
-
-#view {	display: none; }
 
 @media(prefers-color-scheme: light) {
 	body {
@@ -56,14 +31,5 @@ tr:nth-child(even) {
 		color:#000
 	}
 
-	button {
-		background:#ddd;
-		color:#000;
-	}
-
 	a { color:blue }
-
-	tr:nth-child(odd) {background:#eee }
-	tr:nth-child(even) { background:#ddd }
-	hr {background:#bbb}
 }
